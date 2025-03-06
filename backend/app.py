@@ -95,11 +95,11 @@ def predict():
 # Email configuration
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
-app.config['MAIL_USERNAME'] = 'certifiedadevi@gmail.com'
-app.config['MAIL_PASSWORD'] = 'demodemo'
+app.config['MAIL_USERNAME'] = '#####@gmail.com'
+app.config['MAIL_PASSWORD'] = '####'
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USE_SSL'] = False
-app.config['MAIL_DEFAULT_SENDER'] = 'certifiedadevi@gmail.com'
+app.config['MAIL_DEFAULT_SENDER'] = '#####@gmail.com'
 
 mail = Mail(app)
 
